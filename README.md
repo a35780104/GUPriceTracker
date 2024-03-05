@@ -3,20 +3,6 @@
 ## LineBot ID
 **@111lduho**
 
-## 使用說明
-於Line聊天室輸入
-"特價追蹤 (商品序號六位數)"  
-例如:
-`特價追蹤 349330`  
-![image](https://github.com/a35780104/GUPriceTracker/assets/34364797/876ddbb6-21d9-4f3b-a46a-d8e1f72d07e0)
-
-
-## 使用情境
-* 現場逛GU時發現某件衣服很好看，但是太貴了先把商品標籤、商品序號拍起來，等特價再買，但是通常特價的時候都忘記了。  
-![image](https://github.com/a35780104/GUPriceTracker/assets/34364797/f90abd7c-68de-4d35-a943-69b4d740d1a4)
-* 在家躺在沙發突然想起來圖庫存著之前想買但是太貴的衣服照片，趕快用LineBot查看看特價沒、還有沒有庫存。
-![image](https://github.com/a35780104/GUPriceTracker/assets/34364797/bf487335-d68d-43a0-ad3d-ef2a53a48e05)
-
 
 ## 目標
 **User透過line bot獲得GU的特價資訊**
@@ -35,6 +21,21 @@
 - [X] 獲取商品存貨狀態
 - [ ] 商品歷史特價紀錄
 - [ ] 爬蟲腳本執行時間每次不超過10分鐘(當前為17-20mins，依網路速度)
+
+## 使用說明
+於Line聊天室輸入
+"特價追蹤 (商品序號六位數)"  
+例如:
+`特價追蹤 349330`  
+![image](https://github.com/a35780104/GUPriceTracker/assets/34364797/876ddbb6-21d9-4f3b-a46a-d8e1f72d07e0)
+
+
+## 使用情境
+* 現場逛GU時發現某件衣服很好看，但是太貴了先把商品標籤、商品序號拍起來，等特價再買，但是通常特價的時候都忘記了。  
+![image](https://github.com/a35780104/GUPriceTracker/assets/34364797/f90abd7c-68de-4d35-a943-69b4d740d1a4)
+* 在家躺在沙發突然想起來圖庫存著之前想買但是太貴的衣服照片，趕快用LineBot查看看特價沒、還有沒有庫存。
+![image](https://github.com/a35780104/GUPriceTracker/assets/34364797/bf487335-d68d-43a0-ad3d-ef2a53a48e05)
+
 
 
 ## 資料庫欄位
@@ -72,6 +73,7 @@
 >usertracks
 >>userid (line user token)
 >>productcode (商品編號)
+
 
 ### 待新增功能
 - [ ] 優化爬蟲腳本
